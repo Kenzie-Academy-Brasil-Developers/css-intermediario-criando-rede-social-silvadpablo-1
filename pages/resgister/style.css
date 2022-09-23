@@ -1,0 +1,38 @@
+.container-login {
+    width: var(--container-width);
+    /* height: var(--container-height-login-cadastro); */
+    background: var(--color-grey-5);
+    border-radius: var(--radius-container);
+}
+
+.form-login {
+    width: var(--form-width);
+    /* height: 426px; */
+    position: var(--form-position);
+    top: var(--form-position-top);
+    left: var(--form-position-left);
+    padding: var(--form-padding);
+    gap: var(--gap-buttons-inputText);
+    background: var(--color-white-fixed);
+    border-radius: var(--radius-container);
+    box-shadow: var(--form-shadow);
+}
+
+.form-input {
+    width: var(--form-items-width);
+    height: var(--form-input-height);
+}
+
+.form-button {
+    width: var(--form-items-width);
+    height: var(--form-button-height);
+    gap: var(--form-buttons-gap);
+}
+
+.form-back {
+    height: var(--form-button-height);
+    gap: var(--form-gap);
+    position: absolute;
+    right: 0;
+    margin-right: 24px;
+}

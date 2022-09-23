@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:wght@300;400;500&display=swap');
 
 * {
     margin: 0;
@@ -7,21 +7,79 @@
 }
 
 :root{
+    --color-primary: #4263EB;
+    --color-primary-2: #364FC7;
+    --color-grey-0: #0A0C0D;
     --color-grey-1: #212529;
     --color-grey-2: #495057;
+    --color-grey-3: #868E96;
+    --color-grey-4: #DEE2E6;
+    --color-grey-5: #F8F9FA;
+    --grey-opacity-1: rgba(33, 37, 41, 0.5);
     --color-white-fixed: #ffffff;
-    --radius-1: 0.25rem;
+    --color-like-on: #D7443E;
+
     --font-family-1: "Inter", sans-serif;
+    --font-family-2: "Nunito", sans-serif;
+    --title-1-size: 28px;
+    --title-1-weight: 700;
+    --title-1-line: 40px;
+    --title-2-size: 20px;
+    --title-2-weight: 600;
+    --title-2-line: 24px;
+    --text-1-size: 16px;
+    --text-1-line: 28px;
+    --text-2-size: 14px;
+    --text-3-size: 12px;
+    --text-weight: 400;
+    --text-2-3-line: 16px;
+
+    --radius-1: 0.25rem;
+    --radius-input-button: 4px;
+    --radius-outline: 2px;
+    --radius-container: 8px;
+
+    --gap-buttons-inputText: 10px;
+    --padding-buttons: 0px 12px;
+    --border-inputs-buttons: 2px solid;
+    --border-button-outline: 1px solid;
+    --button-primary-grey-white-w: 58px;
+    --button-primary-grey-white-h: 38px;
+    --button-outline-height: 28px;
+    --outline: none;
+    --cursor: pointer;
+
+    --container-width: 1441px;
+    --container-height-login-cadastro: 914px;
+    --container-height-home: 1751px;
+
+    --form-width: 461px;
+    --form-padding: 40px 24px;
+    --form-gap: 30px;
+    --form-items-gap: 20px;
+    --form-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+    --form-position: absolute;
+    --form-position-top: 186px;
+    --form-position-left: 464px;
+    --form-items-width: 413px;
+    --form-input-text-width: 713px;
+    --form-input-height: 52px;
+    --form-button-height: 38px;
+
+    --modal-width: 761px;
+    --modal-padding: 40px 24px;
+    --modal-gap: 32px;
+    --position-absolute: absolute;
+
+    --media-container-width: 425px;
+    --media-min-width: 100vw;
+    --media-container-padding: 0 20px;
+    --media-navbar-padding: 30px 20px;
+    --media-suggestion-height: 185px
 }
 
 body{
     font-family: var(--font-family-1);
-}
-
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
 }
 
 ul{

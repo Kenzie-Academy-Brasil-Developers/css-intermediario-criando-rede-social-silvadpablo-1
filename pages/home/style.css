@@ -1,0 +1,121 @@
+main {
+    margin-top: 146px;
+}
+
+section {
+    width: var(--form-input-text-width);
+    /* width: var(--container-width); */
+    padding-left: 100px;
+}
+
+
+.user-img {
+    width: var(--form-input-height);
+    height: var(--form-input-height);
+    border-radius: 100%;
+    
+}
+
+.user-name {
+    font-family: var(--font-family-1);
+    font-size: var(--title-2-size);
+    font-weight: var(--title-2-weight);
+    line-height: var(--title-2-line);
+    color: var(--color-grey-1);
+    margin-bottom: 8px;
+}
+
+.user-job {
+    font-size: var(--text-2-size);
+    font-weight: var(--text-weight);
+    line-height: var(--text-2-3-line);
+    color: var(--color-grey-2);
+}
+
+.posts {
+    margin: 52px 0px;
+}
+
+.title-1 {
+    font-size: var(--title-1-size);
+    font-weight: var(--title-1-weight);
+    line-height: var(--title-1-line);
+    color: var(--color-grey-1);
+}
+
+.title-2 {
+    font-size: var(--title-2-size);
+    font-weight: var(--title-2-weight);
+    line-height: var(--title-2-line);
+    color: var(--color-grey-1);
+    margin-bottom: 61px;
+}
+
+.text-1 {
+    font-size: var(--text-1-size);
+    font-weight: var(--text-weight);
+    line-height: var(--text-1-line);
+    color: var(--color-grey-2);
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+.p-likes {
+    font-size: var(--text-2-size);
+    font-weight: var(--text-weight);
+    line-height: var(--text-2-3-line);
+    padding-top: 9px;
+    position: relative;
+    right: 12px;
+}
+
+.suggestion {
+    width: 421px;
+    max-height: 363px;
+    position: var(--position-absolute);
+    left: 940px;
+}
+
+.sticky {
+    position: sticky;
+    top: 146px;
+    max-height: 100%;
+    z-index: 1;
+}
+
+.modal-wrap {
+    background: var(--grey-opacity-1);
+    width: var(--container-width);
+    height: 2107px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.modal-container {
+    width: var(--modal-width);
+    padding: var(--modal-padding);
+    background-color: var(--color-white-fixed);
+    border-radius: var(--radius-container);
+    gap: var(--modal-gap);
+    position: var(--position-absolute);
+    top: 100px;
+    left: 340px;
+}
+
+.modal-content {
+    width: var(--form-input-text-width);
+}
+
+.modal-button {
+    font-family: var(--font-family-2);
+    background: var(--color-grey-5);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 150%;
+    position: var(--position-absolute);
+    left: 706px;
+    top: 11px;
+}

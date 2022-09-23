@@ -4,16 +4,119 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <link rel="stylesheet" href="/styles/globalStyles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../styles/buttons.css">
+    <link rel="stylesheet" href="../../styles/inputs.css">
+    <link rel="stylesheet" href="../../styles/navbar.css">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../styles/display.css">
+
     <title>TechPosters - Home</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <nav class="flex justify-between items-center navbar">
+      <p>TechPosters</p>
+      <div class="flex items-center">
+        <a href="#">Sair</a>
+      </div>
+    </nav>
+    
+    <main>
+      <div class="media-invert">
+     
+      <div class="sticky">
+        <aside class="suggestion flex flex-col">
+          <p class="title-2">Sugestões para você seguir</p>
+          <div id="suggested-cards" class="flex flex-col">
+            <div id="suggested-card" class="flex justify-between items-center">
+                <div class="flex">
+                  <figure>
+                    <img class="user-img" src="../../assets/img/user1.svg" alt="">
+                  </figure>
+                  <div>
+                    <p class="user-name">Nome usuario</p>
+                    <p class="user-job">profissão</p>
+                  </div>
+                </div>
+                <button class="btn btn-outline">Seguir</button>
+            </div>
+            <div id="suggested-card" class="flex justify-between items-center">
+                <div class="flex">
+                  <figure>
+                    <img class="user-img" src="../../assets/img/user1.svg" alt="">
+                  </figure>
+                  <div>
+                    <p class="user-name">Nome usuario</p>
+                    <p class="user-job">profissão</p>
+                  </div>
+                </div>
+                <button class="btn btn-outline">Seguir</button>
+            </div>
+            <div id="suggested-card" class="flex justify-between items-center">
+                <div class="flex">
+                  <figure>
+                    <img class="user-img" src="../../assets/img/user1.svg" alt="">
+                  </figure>
+                  <div>
+                    <p class="user-name">Nome usuario</p>
+                    <p class="user-job">profissão</p>
+                  </div>
+                </div>
+                <button class="btn btn-outline">Seguir</button>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+
+      <section id="section-user" class="flex justify-between">
+        <div class="flex flex-col">
+          <div class="flex">
+            <figure>
+              <img class="user-img" src="../../assets/img/user1.svg" alt="">
+            </figure>
+            <div>
+              <p class="user-name">Nome usuario</p>
+              <p class="user-job">profissão</p>
+            </div>
+          </div>
+          <div class="flex flex-col">
+            <input class="input-text" type="text" placeholder="Titulo do post">
+            <input class="input-text input-text-post" type="text" placeholder="Post">
+          </div>
+          <div class="flex justify-end">
+            <button class="btn btn-primary">Postar</button>
+          </div>
+        </div>
+      </section>
+
+    </div>
+      
+      <section id="section-posts">
+        <h1 class="posts title-1">Posts</h1>
+        <!-- <div id="post-user" class="flex">
+          <figure>
+            <img class="user-img" src="../../assets/img/user1.svg" alt="">
+          </figure>
+          <div>
+            <p class="user-name">Nome usuario</p>
+            <p class="user-job">profissão</p>
+          </div>
+        </div>
+        <div>
+          <h2 class="post-title title-1">Titulo do post</h2>
+          <p class="post-text text-1">post</p>
+        </div>
+        <div>
+          <button class="btn btn-grey1">Abrir Post</button>
+          <i class="fa fa-heart">#curtidas</i>
+        </div> -->
+      </section>
+    </main>
+    <script src="../../script/database/users.js"></script>
+    <script src="../../script/database/posts.js"></script>
+    <script src="index.js"></script>
   </body>
-  <script src="/script/database/users.js"></script>
-  <script src="/script/database/posts.js"></script>
-  <script src="/script/database/sugestUsers.js"></script>
-  <script src="index.js"></script>
 </html>

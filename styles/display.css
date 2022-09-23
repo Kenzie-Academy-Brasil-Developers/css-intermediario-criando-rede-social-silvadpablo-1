@@ -1,0 +1,135 @@
+.flex {
+    display: flex;
+}
+  
+.items-center {
+  align-items: center;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 700px){
+  .navbar {
+    width: var(--media-container-width);
+    min-width: var(--media-min-width);
+    padding: var(--media-navbar-padding);
+  }
+
+  .media-invert {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .main {
+    width: var(--media-container-width);
+    min-width: var(--media-min-width);
+    margin-top: 10px;
+    display: flex;
+  }
+
+  #section-user {
+    width: var(--media-container-width);
+    min-width: var(--media-min-width);
+    padding: var(--media-container-padding);
+  }
+
+  #section-posts {
+    width: var(--media-container-width);
+    min-width: var(--media-min-width);
+    padding: var(--media-container-padding);
+  }
+
+  .input-text {
+    width: var(--media-container-width);
+    min-width: 93vw;
+  }
+
+  .sticky {
+    position: unset;
+    height: var(--media-suggestion-height);
+  }
+
+  .suggestion {
+    position: unset;
+    width: var(--media-container-width);
+    min-width: var(--media-min-width);
+    padding: var(--media-container-padding);
+    height: var(--media-suggestion-height);
+    overflow-y: scroll;
+    
+  }
+
+  #suggested-cards {
+    flex-direction: row;
+  }
+
+  #suggested-card {
+    flex-direction: column;
+    align-items: start;
+    margin-right: 61px;
+  }
+
+  .title-1 {
+    padding: 20px 0;
+  }
+
+  .title-2 {
+    margin-bottom: 10px;
+  }
+
+  .posts {
+    margin: 0px;
+    padding: 20px 0px;
+  }
+
+  #post-user {
+    margin-top: 50px;
+    margin-bottom: 32px;
+  }
+
+  #post-text {
+    margin-bottom: 32px;
+  }
+
+  .modal-wrap {
+    width: 100vw;
+  }
+
+  .modal-container {
+    width: 385px;
+    min-width: 93vw;
+    top: 50px;
+    left: 20px;
+  }
+
+}

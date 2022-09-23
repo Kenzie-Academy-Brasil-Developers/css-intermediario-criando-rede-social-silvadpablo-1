@@ -1,0 +1,61 @@
+.input {
+    background-color: var(--color-white-fixed);
+    border: var(--border-inputs-buttons) var(--color-grey-4);
+    border-radius: var(--radius-input-button);
+    font-family: var(--font-family-1);
+    font-size: var(--text-1-size);
+    font-weight: var(--text-weight);
+    line-height: 19px;
+}
+
+.input-form {
+    width: 297px;
+    height: 52px;
+    padding: 16px 20px;
+}
+
+.input-form::placeholder {
+    color: var(--color-grey-3);
+}
+
+.input-form:focus {
+    color: var(--color-grey-1);
+    outline: var(--outline);
+    border-color: var(--color-primary);
+}
+
+.input-form:valid::placeholder {
+    color: var(--color-grey-2);
+}
+
+.input-text {
+    width: var(--form-input-text-width);
+    height: var(--form-input-height);
+    padding: 16px 20px;
+    margin-top: 26px;
+    font-size: var(--text-1-size);
+    font-weight: var(--text-weight);
+    line-height: 19px;
+    border-radius: var(--radius-input-button);
+    gap: var(--gap-buttons-inputText);
+    border: var(--border-inputs-buttons) var(--color-grey-4);
+}
+
+.input-text-post {
+    height: 130px;
+    margin-bottom: 10px;
+}
+
+.input-text::placeholder {
+    color: var(--color-grey-3);
+}
+
+.input-text:focus {
+    border-color: var(--color-primary);
+    outline: var(--outline);
+    color: var(--color-grey-1);
+}
+
+.input-text:valid::placeholder {
+    color: var(--color-grey-2);
+}
