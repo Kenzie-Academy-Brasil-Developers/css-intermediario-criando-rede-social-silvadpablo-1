@@ -13,6 +13,7 @@ section {
     width: var(--form-input-height);
     height: var(--form-input-height);
     border-radius: 100%;
+    margin-bottom: 32px;
     
 }
 
@@ -118,4 +119,5 @@ section {
     position: var(--position-absolute);
     left: 706px;
     top: 11px;
+    cursor: var(--cursor);
 }

@@ -73,11 +73,22 @@
     width: 89px;
     border-color: var(--color-primary);
     background: var(--color-primary);
+    color: var(--color-white-fixed);
     
+}
+
+.btn-following:hover {
+    background: var(--color-primary);
+    color: var(--color-white-fixed);
 }
 
 .fa-heart {
     color: var(--color-like-on);
     font-size: 24px;
     padding-top: 5px;
+    cursor: var(--cursor);
+}
+
+.fa-heart-disabled {
+    color: var(--grey-opacity-1);
 }

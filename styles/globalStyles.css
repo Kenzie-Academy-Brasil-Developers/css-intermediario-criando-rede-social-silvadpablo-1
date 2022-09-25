@@ -71,8 +71,9 @@
     --modal-gap: 32px;
     --position-absolute: absolute;
 
-    --media-container-width: 425px;
-    --media-min-width: 100vw;
+    --media-container-width: 385px;
+    --media-min-width: 100%;
+    --media-text-width: 98%;
     --media-container-padding: 0 20px;
     --media-navbar-padding: 30px 20px;
     --media-suggestion-height: 185px
