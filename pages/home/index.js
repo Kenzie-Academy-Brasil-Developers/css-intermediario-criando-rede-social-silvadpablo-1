@@ -25,7 +25,7 @@ function createModal (id) {
 
   let p = document.createElement("p")
   let textElem = document.getElementById(`post-text${idNumber}`)
-  p.classList = "text-1"
+  p.classList = "text-1 modal-content"
   p.innerText = textElem.innerText
 
   let button = document.createElement("button")

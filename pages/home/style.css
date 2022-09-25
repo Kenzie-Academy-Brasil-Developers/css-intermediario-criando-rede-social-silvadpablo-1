@@ -59,6 +59,11 @@ section {
     color: var(--color-grey-2);
     margin-top: 20px;
     margin-bottom: 32px;
+    height: 60px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .p-likes {
@@ -107,6 +112,8 @@ section {
 
 .modal-content {
     width: var(--form-input-text-width);
+    height: auto;
+    display: block;
 }
 
 .modal-button {
