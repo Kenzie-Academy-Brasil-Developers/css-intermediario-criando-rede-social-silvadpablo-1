@@ -1,0 +1,39 @@
+.modal-wrap {
+    background: var(--grey-opacity-1);
+    width: var(--container-width);
+    height: 2107px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.modal-container {
+    width: var(--modal-width);
+    padding: var(--modal-padding);
+    background-color: var(--color-white-fixed);
+    border-radius: var(--radius-container);
+    gap: var(--modal-gap);
+    position: relative;
+    top: 100px;
+    left: 340px;
+}
+
+.modal-content {
+    width: var(--form-input-text-width);
+    height: auto;
+    display: block;
+}
+
+.modal-button {
+    font-family: var(--font-family-2);
+    background: var(--color-grey-5);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 150%;
+    position: var(--position-absolute);
+    left: 706px;
+    top: 11px;
+    cursor: var(--cursor);
+}
